@@ -4,12 +4,12 @@
 // output 
 
 function sumArray(numbers) {
-    let total = 0;
+    let all = 0;
     for(let i = 0; i < numbers.length; i++ ){
-        total += numbers[i];
+        all += numbers[i];
 
     }
-    return total;
+    return all;
     
 }
 const numbers = [2,7,8,7,9];
